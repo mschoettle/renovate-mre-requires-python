@@ -1,17 +1,16 @@
-# minimal-reproduction-template
+# 34793
 
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+MRE for discussion https://github.com/renovatebot/renovate/discussions/34793#discussioncomment-12493550
 
 ## Current behavior
 
-Explain the current behavior here.
+The Python version in `.python-version` gets updated, the pinned version in `requires-python` in `pyproject.toml` does not.
 
 ## Expected behavior
 
-Explain the expected behavior here.
+The `requires-python` version should be updated as well.
+It is also possible to write other expressions, such as `==3.12.*` in which case it would be great to get an update to `3.13.*`.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/34793#discussioncomment-12493550
